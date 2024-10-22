@@ -28,7 +28,6 @@ const PersistLogin = () => {
 
         return () =>{ isMounted = false;}
     }, [])
-    console.log(auth.accessToken);
 
     return (
         <>
